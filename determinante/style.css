@@ -1,0 +1,344 @@
+* {
+    font-family: SamsungOne;
+}
+header {
+    position: absolute;
+    left: 0pt;
+    top: 0pt;
+    width: 100%;
+    background-color: #4e9f3d;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+#explicacao {
+    background-color: #99d399;
+    position: absolute;
+    width: 80%;
+    height: 130pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100pt;
+    border-radius: 10pt;
+    cursor: default;
+}
+#exemplo {
+    width: 200pt;
+    position: absolute;
+    top: 150pt;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#calculadora {
+    background-color: #99d399;
+    position: absolute;
+    width: 80%;
+    height: 270pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 440pt;
+    border-radius: 10pt;
+}
+.as {
+    position: absolute;
+    width: 40pt;
+    height: 30pt;
+    font-size: 15pt;
+}
+#a11 {
+    top: 40pt;
+    margin: 10pt;
+}
+#a12 {
+    top: 40pt;
+    left: 60pt;
+    margin: 10pt;
+}
+#a13 {
+    top: 40pt;
+    left: 120pt;
+    margin: 10pt;
+}
+#a21 {
+    top: 90pt;
+    margin: 10pt;
+}
+#a22 {
+    top: 90pt;
+    left: 60pt;
+    margin: 10pt;
+}
+#a23 {
+    top: 90pt;
+    left: 120pt;
+    margin: 10pt;
+}
+#a31 {
+    top: 140pt;
+    margin: 10pt;
+}
+#a32 {
+    top: 140pt;
+    left: 60pt;
+    margin: 10pt;
+}
+#a33 {
+    top: 140pt;
+    left: 120pt;
+    margin: 10pt;
+}
+#calcular {
+    position: absolute;
+    top: 200pt;
+    left: 10pt;
+    font-size: 15pt;
+    width: 90pt;
+    height: 30pt;
+    border-radius: 5pt;
+    border: solid gray 2pt;
+    cursor: pointer;
+    transition: 250ms;
+}
+#calcular:hover {
+    scale: 1.1;
+}
+#showPassos {
+    position: absolute;
+    top: 200pt;
+    left: 110pt;
+    font-size: 15pt;
+    width: 120pt;
+    height: 30pt;
+    border-radius: 5pt;
+    border: solid gray 2pt;
+    cursor: pointer;
+    transition: 250ms;
+    display: none;
+}
+#showPassos:hover {
+    scale: 1.1;
+}
+#passos {
+    position: absolute;
+    left: 280pt;
+    font-size: 15pt;
+    top: 5pt;
+}
+#videoAula {
+    position: absolute;
+    top: 770pt;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    border-radius: 20pt;
+}
+footer {
+    position: absolute;
+    background-color: #1e5128;
+    width: 100%;
+    left: 0pt;
+    top: 1200pt;
+    height: 170pt;
+}
+.links {
+    position: absolute;
+    width: 50pt;
+    top: 75pt;
+    cursor: pointer;
+    transition: 250ms;
+}
+.links:hover {
+    scale: 1.1;
+}
+#you {
+    left: 125pt;
+}
+#what {
+    left: 200pt;
+}
+#git {
+    left: 275pt;
+}
+#tik {
+    left: 350pt;
+}
+#face {
+    left: 425pt;
+}
+#eu {
+    position: absolute;
+    border-radius: 50%;
+    width: 100pt;
+    top: 50pt;
+    left: 10pt;
+}
+#dev {
+    position: absolute;
+    left: 250pt;
+    top: -10pt;
+    font-size: 20pt;
+    text-align: center;
+}
+#titulo {
+    position: absolute;
+    font-size: 18pt;
+    left: 10pt;
+}
+#parag {
+    position: absolute;
+    left: 10pt;
+    font-size: 15pt;
+    top: 30pt;
+}
+@media (max-width: 969px) {
+    h1 {
+        font-size: 13pt;
+    }
+    h2 {
+        font-size: 12pt;
+    }
+    #explicacao {
+        top: 70pt;
+        height: 170pt;
+    }
+    #titulo {
+        font-size: 10pt;
+    }
+    #parag {
+        font-size: 10pt;
+        top: 15pt;
+    }
+    #exemplo {
+        top: 180pt;
+        width: 150pt;
+    }
+    #calculadora {
+        top: 390pt;
+        height: 330pt;
+    }
+    #a11 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        top: 30pt;
+    }
+    #a12 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        left: 40pt;
+        top: 30pt;
+    }
+    #a13 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        left: 80pt;
+        top: 30pt;
+    }
+    #a21 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        top: 60pt;
+    }
+    #a22 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        top: 60pt;
+        left: 40pt;
+    }
+    #a23 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        top: 60pt;
+        left: 80pt;
+    }
+    #a31 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        top: 90pt;
+    }
+    #a32 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        top: 90pt;
+        left: 40pt;
+    }
+    #a33 {
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+        top: 90pt;
+        left: 80pt;
+    }
+    #calcular {
+        top: 130pt;
+        scale: 0.7;
+        left: 0pt;
+    }
+    #calcular:hover {
+        scale: 0.7;
+    }
+    #showPassos {
+        scale: 0.7;
+        left: 70pt;
+        top: 130pt;
+    }
+    #showPassos:hover {
+        scale: 0.7;
+    }
+    #videoAula {
+        top: 750pt;
+        height: 140pt;
+        width: 90%;
+    }
+    #passos {
+        left: 10pt;
+        font-size: 12pt;
+        top: 160pt;
+    }
+    footer {
+        top: 930pt;
+    }
+    .links {
+        width: 35pt;
+        top: 125pt;
+    }
+    #dev {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12pt;
+        top: 0pt;
+    }
+    #eu {
+        width: 70pt;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #exemplo {
+        top: 180pt;
+        width: 150pt;
+    }
+    #you {
+        left: 10pt;
+    }
+    #what {
+        left: 60pt;
+    }
+    #git {
+        left: 110pt;
+    }
+    #tik {
+        left: 160pt;
+    }
+    #face {
+        left: 200pt;
+    }
+}

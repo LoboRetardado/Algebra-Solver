@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determinante | Algebra Solver Online</title>
+    <link rel="icon" href="../icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/samsungone" rel="stylesheet">
+</head>
+<header onclick="home()" title="Voltar para a página inicial">
+    <h1>Determinante | Algebra solver online</h1>
+</header>
+<body>
+    <div id="explicacao">
+        <p id="titulo"><strong>O que é uma matriz de ordem 3?</strong></p>
+        <p id="parag">Na álgebra linear, uma matriz é um quadro rectangular composto por números. Uma matriz costuma ser representada por uma letra maiúscula, tal como A, e tem um determinado número de linhas e de colunas. Neste caso, temos 3 linhas e 3 colunas (3 x 3).<a href="https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)"> Ler mais</a></p>
+        <img id="exemplo" src="../images/matriz.webp" alt="exemplo" title="Exemplo">
+    </div>
+    <div id="calculadora">
+        <h2 style="position: absolute; top: 5pt; left: 10pt;">Calculadora</h2>
+        <p id="passos"><strong>Resultado</strong></p>
+        <input class="as" id="a11" type="number" placeholder="a11">
+        <input class="as" id="a12" type="number" placeholder="a12">
+        <input class="as" id="a13" type="number" placeholder="a13">
+
+        <input class="as" id="a21" type="number" placeholder="a21">
+        <input class="as" id="a22" type="number" placeholder="a22">
+        <input class="as" id="a23" type="number" placeholder="a23">
+
+        <input class="as" id="a31" type="number" placeholder="a31">
+        <input class="as" id="a32" type="number" placeholder="a32">
+        <input class="as" id="a33" type="number" placeholder="a33">
+
+        <input id="calcular" type="button" value="Calcular">
+        <input id="showPassos" type="button" value="Mostrar passos">
+    </div>
+
+    <iframe id="videoAula" width="877" height="493" src="https://www.youtube.com/embed/byCSKX3B-Qg" title="✅ Determinantes - Regra de Sarrus - Professora Angela Matemática" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+<footer>
+    <p style="color: white;" id="dev">Desenvolvido por<br>Lobo Retardado</p>
+    
+    <img id="eu" src="../eu.png" alt="Dev">
+    <img id="git" src="../github.png" class="links" onclick="goGit()">
+    <img id="you" src="../youtube.png" class="links" onclick="goYou()">
+    <img id="what" src="../meta.png" class="links" onclick="goWhat()">
+    <img id="tik" src="../tik.png" class="links" onclick="goTik()">
+    <img id="face" src="../face.png" class="links" onclick="goFace()">
+</footer>
+<script src="script.js"></script>
+</html>

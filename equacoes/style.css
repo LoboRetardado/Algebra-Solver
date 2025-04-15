@@ -1,0 +1,271 @@
+* {
+    font-family: SamsungOne;
+}
+header {
+    position: absolute;
+    left: 0pt;
+    top: 0pt;
+    width: 100%;
+    background-color: #4e9f3d;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+#explicacao {
+    background-color: #99d399;
+    position: absolute;
+    width: 80%;
+    height: 130pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100pt;
+    border-radius: 10pt;
+    cursor: default;
+}
+#exemplo {
+    position: absolute;
+    top: 150pt;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#calculadora {
+    background-color: #99d399;
+    position: absolute;
+    width: 80%;
+    height: 180pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 450pt;
+    border-radius: 10pt;
+}
+#xMenos {
+    position: absolute;
+    left: 10pt;
+    top: 80pt;
+    width: 40pt;
+    height: 30pt;
+    font-size: 15pt;
+}
+#yMenos {
+    position: absolute;
+    left: 70pt;
+    top: 80pt;
+    width: 40pt;
+    height: 30pt;
+    font-size: 15pt;
+}
+#resultadoMenos {
+    position: absolute;
+    left: 130pt;
+    top: 80pt;
+    width: 40pt;
+    height: 30pt;
+    font-size: 15pt;
+}
+#calcular {
+    position: absolute;
+    top: 130pt;
+    left: 10pt;
+    font-size: 15pt;
+    width: 90pt;
+    height: 30pt;
+    border-radius: 5pt;
+    border: solid gray 2pt;
+    cursor: pointer;
+    transition: 250ms;
+}
+#calcular:hover {
+    scale: 1.1;
+}
+#textRes {
+    position: absolute;
+    left: 200pt;
+    font-size: 15pt;
+    top: 70pt;
+}
+#passos {
+    position: absolute;
+    left: 350pt;
+    font-size: 15pt;
+    top: 10pt;
+}
+#sinal {
+    position: absolute;
+    top: 45pt;
+    left: 10pt;
+    width: 50pt;
+    height: 20pt;
+    font-size: 12pt;
+}
+#aula {
+    position: absolute;
+    top: 680pt;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+footer {
+    position: absolute;
+    background-color: #1e5128;
+    width: 100%;
+    left: 0pt;
+    top: 1100pt;
+    height: 170pt;
+}
+.links {
+    position: absolute;
+    width: 50pt;
+    top: 75pt;
+    cursor: pointer;
+    transition: 250ms;
+}
+.links:hover {
+    scale: 1.1;
+}
+#you {
+    left: 125pt;
+}
+#what {
+    left: 200pt;
+}
+#git {
+    left: 275pt;
+}
+#tik {
+    left: 350pt;
+}
+#face {
+    left: 425pt;
+}
+#eu {
+    position: absolute;
+    border-radius: 50%;
+    width: 100pt;
+    top: 50pt;
+    left: 10pt;
+}
+#dev {
+    position: absolute;
+    left: 250pt;
+    top: -10pt;
+    font-size: 20pt;
+    text-align: center;
+}
+#titulo {
+    position: absolute;
+    left: 10pt;
+    font-size: 18pt;
+}
+#parag {
+    position: absolute;
+    left: 10pt;
+    font-size: 15pt;
+    top: 20pt;
+}
+
+@media (max-width: 969px) {
+    h1 {
+        font-size: 13pt;
+    }
+    #explicacao {
+        top: 70pt;
+        height: 170pt;
+    }
+    #titulo {
+        font-size: 10pt;
+    }
+    #parag {
+        font-size: 10pt;
+        top: 5pt;
+    }
+    #calculadora {
+        top: 350pt;
+        height: 280pt;
+    }
+    h2 {
+        font-size: 12pt;
+    }
+    #sinal {
+        top: 30pt;
+    }
+    #xMenos {
+        top: 55pt;
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+    }
+    #yMenos {
+        left: 50pt;
+        top: 55pt;
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+    }
+    #resultadoMenos {
+        left: 90pt;
+        top: 55pt;
+        width: 30pt;
+        height: 20pt;
+        font-size: 12pt;
+    }
+    #calcular {
+        top: 90pt;
+        scale: 0.7;
+        left: -2pt;
+    }
+    #calcular:hover {
+        scale: 0.7;
+    }
+    #textRes {
+        left: 10pt;
+        top: 120pt;
+    }
+    #passos {
+        left: 10pt;
+        top: 150pt;
+    }
+    #aula {
+        top: 650pt;
+        height: 140pt;
+        width: 90%;
+    }
+    footer {
+        top: 850pt;
+    }
+    .links {
+        width: 35pt;
+        top: 125pt;
+    }
+    #dev {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12pt;
+        top: 0pt;
+    }
+    #eu {
+        width: 70pt;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #exemplo {
+        top: 180pt;
+        width: 150pt;
+    }
+    #you {
+        left: 10pt;
+    }
+    #what {
+        left: 60pt;
+    }
+    #git {
+        left: 110pt;
+    }
+    #tik {
+        left: 160pt;
+    }
+    #face {
+        left: 200pt;
+    }    
+}

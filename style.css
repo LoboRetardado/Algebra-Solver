@@ -1,0 +1,223 @@
+* {
+    font-family: SamsungOne;
+}
+header {
+    position: absolute;
+    left: 0pt;
+    top: 0pt;
+    width: 100%;
+    background-color: #4e9f3d;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+h2 {
+    position: absolute;
+    top: 70pt;
+    left: 30pt;
+    cursor: default;
+}
+#x-y {
+    position: absolute;
+    width: 200pt;
+    border-radius: 10pt;
+    right: 20pt;
+    top: 5pt;
+}
+#x {
+    position: absolute;
+    width: 200pt;
+    border-radius: 10pt;
+    left: 20pt;
+    top: 20pt;
+}
+#determinante {
+    position: absolute;
+    width: 120pt;
+    border-radius: 10pt;
+    left: 20pt;
+    top: 10pt;
+}
+#equacoes {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130pt;
+    width: 80%;
+    height: 120pt;
+    background-color: #99d399;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#sistemasSimples {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 320pt;
+    width: 80%;
+    height: 120pt;
+    background-color: #99d399;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#matriz {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 490pt;
+    width: 80%;
+    height: 120pt;
+    background-color: #99d399;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#sistema {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 660pt;
+    width: 80%;
+    height: 120pt;
+    background-color: #99d399;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#imgSistema {
+    position: absolute;
+    width: 200pt;
+    border-radius: 10pt;
+    right: 20pt;
+    top: 10pt;
+}
+footer {
+    position: absolute;
+    background-color: #1e5128;
+    width: 100%;
+    left: 0pt;
+    top: 850pt;
+    height: 170pt;
+}
+.links {
+    position: absolute;
+    width: 50pt;
+    top: 75pt;
+    cursor: pointer;
+    transition: 250ms;
+}
+.links:hover {
+    scale: 1.1;
+}
+#you {
+    left: 125pt;
+}
+#what {
+    left: 200pt;
+}
+#git {
+    left: 275pt;
+}
+#tik {
+    left: 350pt;
+}
+#face {
+    left: 425pt;
+}
+#eu {
+    position: absolute;
+    border-radius: 50%;
+    width: 100pt;
+    top: 50pt;
+    left: 10pt;
+}
+#dev {
+    position: absolute;
+    left: 250pt;
+    top: -10pt;
+    font-size: 20pt;
+    text-align: center;
+}
+
+@media (max-width: 969px) {
+    h1 {
+        font-size: 13pt;
+    }
+    #equacoes {
+        top: 50pt;
+        height: 155pt;
+    }
+    p {
+        font-size: 12pt;
+        left: 20pt;
+    }
+    #x {
+        width: 100%;
+        left: 0;
+        top: 70pt;
+    }
+    #sistemasSimples {
+        top: 240pt;
+        height: 180pt;
+    }
+    #x-y {
+        width: 100%;
+        left: 0;
+        top: 70pt;
+    }
+    #matriz {
+        top: 460pt;
+        height: 240pt;
+    }
+    #determinante {
+        width: 100%;
+        left: 0;
+        top: 70pt;
+    }
+    #sistema {
+        top: 735pt;
+        height: 150pt;
+    }
+    #imgSistema {
+        width: 100%;
+        left: 0;
+        top: 55pt;
+    }
+    footer {
+        top: 930pt;
+    }
+    .links {
+        width: 35pt;
+        top: 125pt;
+    }
+    #dev {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12pt;
+        top: 0pt;
+    }
+    #eu {
+        width: 70pt;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #you {
+        left: 10pt;
+    }
+    #what {
+        left: 60pt;
+    }
+    #git {
+        left: 110pt;
+    }
+    #tik {
+        left: 160pt;
+    }
+    #face {
+        left: 200pt;
+    }    
+}
